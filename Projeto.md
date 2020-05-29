@@ -17,3 +17,7 @@
 #### Migration de categorias
 
 `php artisan make:migration create_categories_table`
+
+#### Model de categorias
+
+`php artisan make:model Models/Category`
