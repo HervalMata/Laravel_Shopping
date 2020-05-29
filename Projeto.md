@@ -11,3 +11,9 @@
 ##### **Página index do painél do admin**
 
 `php artisan make:controller Admin/DashboardController`
+
+## Categorias
+
+#### Migration de categorias
+
+`php artisan make:migration create_categories_table`
