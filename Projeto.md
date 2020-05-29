@@ -21,3 +21,11 @@
 #### Model de categorias
 
 `php artisan make:model Models/Category`
+
+#### Seeder de categorias
+
+'composer require cviebrock/eloquent-sluggable'
+
+'php artisan make:seeder CategoriesSeeder'
+
+'php artisan migrate --seed'
