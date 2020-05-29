@@ -111,7 +111,7 @@ class BaseRepository implements BaseRepositoryInterface
      * @throws ModelNotFoundException
      */
     public
-    function findOneByOrFail(array $data)
+    function findByOrFail(array $data)
     {
         return $this->model->where($data)->firstOrFail();
     }

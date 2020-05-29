@@ -25,7 +25,7 @@ interface BaseRepositoryInterface
 
     public function findOneBy(array $data);
 
-    public function findOneByOrFail(array $data);
+    public function findByOrFail(array $data);
 
     public function getPaginatedResults(int $paginated = 25, string $orderBy = 'id', string $sortBy = 'desc');
 
