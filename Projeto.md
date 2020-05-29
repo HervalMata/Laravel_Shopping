@@ -29,3 +29,7 @@
 'php artisan make:seeder CategoriesSeeder'
 
 'php artisan migrate --seed'
+
+ToDo BaseRepository, BaseContract, CategoryRepository, CategoryContract, CategoryRequest, Admin/CategoryController, Views Controller
+
+#### BaseRepositoryInterface
