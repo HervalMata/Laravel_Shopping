@@ -30,8 +30,10 @@
 
 'php artisan migrate --seed'
 
-ToDo CategoryRepository, CategoryContract, CategoryRequest, Admin/CategoryController, Views Controller
+ToDo CategoryRepository, CategoryRequest, Admin/CategoryController, Views Controller
 
 #### BaseRepositoryInterface
 
 #### BaseRepository
+
+#### CategoryRepositoryInterface
