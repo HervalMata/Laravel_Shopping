@@ -30,7 +30,7 @@
 
 'php artisan migrate --seed'
 
-ToDo CategoryRepository, CategoryRequest, Admin/CategoryController, Views Controller
+ToDo CategoryRequest, Admin/CategoryController, Views Controller
 
 #### BaseRepositoryInterface
 
@@ -39,3 +39,11 @@ ToDo CategoryRepository, CategoryRequest, Admin/CategoryController, Views Contro
 #### CategoryRepositoryInterface
 
 #### CategoryRepository
+
+#### CategoryController
+
+`php artisan make:controller Admin/CategoryController --resource`
+
+##### Método Index
+
+

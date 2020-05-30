@@ -6,13 +6,14 @@
  * Time: 16:38
  */
 
-namespace App\Repositories\Interfaces;
+namespace App\Repositories;
 
 
 use App\Exceptions\CategoryNotFoundException;
 use App\Models\Category;
 use App\Repositories\BaseRepository;
 use App\Exceptions\CategoryInvalidArgumentException;
+use App\Repositories\Interfaces\CategoryRepositoryInterface;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 
